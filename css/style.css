@@ -1,0 +1,457 @@
+/*---------- import fonts ----------*/
+/*---------- global style ----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------- body style ----------*/
+.title {
+    padding: 30px 0px;
+    border-bottom: 3px dotted rgba(255, 0, 0, 0.445);
+    color: green;
+    margin: 30px 120px;
+}
+.title h1 {}
+/*---------- container ----------*/
+.container {
+    margin: 0 auto;
+    width: 980px;
+    text-align: center;
+}
+/*---------- header ----------*/
+.header {}
+.logo {
+    padding: 20px 0px 15px 0px;
+}
+.logo img {
+    width: 300px;
+}
+/*---------- namBar ----------*/
+.nav {
+    background: #006B51;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.nav nav {}
+.nav nav ul {}
+.nav nav ul li {
+    display: inline-flex;
+}
+.nav nav ul li:hover {
+    background: #E60D01;
+    transition: 0.5s;
+}
+.nav nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 22px 0px 22px;
+}
+.nav nav ul li span {
+    background: #E60D01;
+}
+/*---------- banner ----------*/
+.banner {
+    box-shadow: 0px 3px 20px #0080007a;
+    margin: 20px 0px 0px 0px;
+}
+.slider {}
+.slide {
+    width: 970px;
+    height: 600px;
+}
+.slide_text {
+    margin: 530px 0px 0px 0px;
+    padding: 10px 0px 20px 0px;
+    background: rgba(0, 128, 0, 0.514);
+    color: rgb(228, 216, 216);
+}
+.slide h1 {
+   
+}
+.slide h4 {
+   
+}
+.bg1 {
+    background: url(../images/banner/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg2 {
+    background: url(../images/banner/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg3 {
+    background: url(../images/banner/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg4 {
+    background: url(../images/banner/banner-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg5 {
+    background: url(../images/banner/banner-5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*---------- ukti ----------*/
+.ukti {
+    border-bottom: 4px dotted rgba(255, 0, 0, 0.445);
+    margin: 0 150px;
+}
+.ukti img {}
+.ukti p {
+    width: 650px;
+    margin: -10px 0px 25px 15px;
+}
+/*---------- bangladesh ----------*/
+.bangladesh {
+    margin: 30px 0px 0px 0px;
+}
+.bangladeshBio {
+    display: inline-flex;
+}
+.bangladeshCard {
+}
+.bangladeshCard img {
+    width: 210px;
+    transform: rotate(10deg);
+}
+.bangladeshCard h3 {
+    font-size: 30px;
+    padding: 0px 0px 10px 0px;
+}
+.bangladeshCard p {
+    padding: 0px 0px 15px 0px;
+}
+.bangladeshCard button {
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    background: green;
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 1px 10px red;
+}
+.bangladeshCard button:hover {
+    box-shadow: 0px 1px 10px green;
+    background: red;
+    transition: 0.3s;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+.bangladeshDetails {
+    text-align: initial;
+    margin: 15px 0px 0px 40px;
+}
+.bangladeshDetails p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+/*---------- reasons ----------*/
+.reasons {
+    padding: 0 40px;
+}
+.reasons button {
+    margin: 20px 0px 0px 0px;
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    background: green;
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 1px 10px red;
+}
+.reasonsCardPartTop {
+    display: inline-flex;
+}
+.reasonsCardLeft {
+    display: inline-flex;
+}
+.reasonsCardLeft button:hover {
+    box-shadow: 0px 1px 10px green;
+    background: red;
+    transition: 0.3s;
+    margin: 20px 10px 0px 0px;
+    cursor: pointer;
+}
+.cardTitle {
+    width: 160px;
+}
+.reasonsCardLeft .cardTitle {
+    text-align: end;
+    margin: 0px 20px 0px 0px;
+}
+.cardTitle h4 {}
+.cardTitle p {
+    margin: 15px 0px 0px 0px;
+    font-size: 12px;
+}
+.cardImages {}
+.cardImages img {
+    width: 250px;
+}
+.reasonsCardRight {
+    display: inline-flex;
+    margin: 0px 0px 0px 50px;
+}
+.reasonsCardRight button:hover {
+    box-shadow: 0px 1px 10px green;
+    background: red;
+    transition: 0.3s;
+    margin: 20px 0px 0px 10px;
+    cursor: pointer;
+}
+.reasonsCardRight .cardTitle {
+    text-align: initial;
+    margin: 0px 0px 0px 20px;
+}
+.reasonsCardPartButtom {
+    display: inline-flex;
+    margin: 30px 0px 0px 0px;
+}
+/*---------- digitality ----------*/
+.digitality {}
+.digitality img {
+    width: 480px;
+}
+.digitality p {
+    font-size: 12px;
+}
+.digitality button {
+    margin: 20px 0px 0px 0px;
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    background: green;
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 1px 10px red;
+}
+.digitality button:hover {
+    box-shadow: 0px 1px 10px green;
+    background: red;
+    transition: 0.3s;
+    margin: 20px 0px 0px 10px;
+    cursor: pointer;
+}
+.reviewRight {
+    display: inline-flex;
+}
+.reviewRight p {
+    text-align: initial;
+    margin: 10px 0px 0px 15px;
+}
+.reviewImage {}
+.reviewImage img {}
+.review {}
+.review h3 {}
+.review p {}
+.review button {}
+.review button:hover {}
+.reviewLeft {
+    display: inline-flex;
+    margin: 30px 0;
+}
+.reviewLeft p {
+    text-align: end;
+    margin: 10px 15px 0px 0px;
+}
+/*---------- video ----------*/
+.video {
+    display: inline-flex;
+}
+.videoCard {
+    padding: 10px;
+}
+/*---------- travelPlace ----------*/
+.travelPlace {}
+.travelPlace h1 {
+    padding: 90px 0px 15px 0px;
+    color: white;
+}
+.travelPlace button {
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    background: #00800052;
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 1px 10px #ff00005e;
+}
+.travelPlace button:hover {
+    box-shadow: 0px 1px 10px #00800052;
+    background: #ff00005e;
+    transition: 0.3s;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+.tourTop {
+    display: inline-flex;
+}
+.tourmid {
+    display: inline-flex;
+}
+.tourbottom {
+    display: inline-flex;
+}
+.tourCard {
+    width: 320px;
+    height: 250px;
+    margin: 10px;
+}
+.sundorbon {
+    background: url(../images/tour/sundorbon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.rangamati {
+    background: url(../images/tour/rangamati.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.khagrachari {
+    background: url(../images/tour/khagrachari.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cox_bazar {
+    background: url(../images/tour/cox_bazar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sant_martin {
+    background: url(../images/tour/sant_martin.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.kuakata {
+    background: url(../images/tour/kuakata.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.jaflong {
+    background: url(../images/tour/jaflong.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mohasthan_garh {
+    background: url(../images/tour/mohasthan_garh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mujibnagar {
+    background: url(../images/tour/mujibnagar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*---------- division ----------*/
+.division {}
+.division button {
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    background: #00800052;
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 1px 10px #ff00005e;
+}
+.division button:hover {
+    box-shadow: 0px 1px 10px #00800052;
+    background: #ff00005e;
+    transition: 0.3s;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+.divisionTop {
+    display: inline-flex;
+}
+.divisionbottom {
+    display: inline-flex;
+}
+.divisionCard {
+    padding: 55px 0px 0px 0px;
+    width: 235px;
+    height: 150px;
+    margin: 10px;
+}
+.barishal {
+    background: url(../images/division/barishal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.chittagong {
+    background: url(../images/division/chittagong.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dhaka {
+    background: url(../images/division/dhaka.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mymensingh {
+    background: url(../images/division/mymensingh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.khulna {
+    background: url(../images/division/khulna.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.rajshahi {
+    background: url(../images/division/rajshahi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.rangpur {
+    background: url(../images/division/rangpur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sylhet {
+    background: url(../images/division/sylhet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*---------- art ----------*/
+/*---------- footer ----------*/
+.footer {
+    width: 1020px;
+    background: rgb(34, 32, 32);
+}
+.allFoot {
+    display: inline-flex;
+}
+.map {
+    padding: 20px;
+}
+.footPart {
+    width: 420px;
+    padding: 20px;
+    color: white;
+}
+.footPart img {width: 200px;}
+.footPart h2 {
+    
+margin: 10px 0px 0px 0px;
+}
